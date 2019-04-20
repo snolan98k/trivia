@@ -1,0 +1,82 @@
+body {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: url("../assets/image/paper-3175183_1920.jpg")
+}
+
+#container {
+    box-sizing: border-box;
+    padding: 5% 0;
+    margin: 5% auto;
+    background-image: url('../assets/image/blue-1337811_1920.jpg');
+    width: 960px;
+    min-height: 80%;
+}
+
+#sub-container {
+    position: relative;
+    top: 20%;
+    font-family: 'Font Awesome\ 5 free';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    display: block;
+    width: 350px;
+    height: 100px;
+    margin: 10px auto 0;
+    font-size: 42px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    font-weight: bold;
+    font-family: 'Font Awesome\ 5 free';
+}
+
+#start {
+    margin-top: 10%;
+    font-family: 'Font Awesome\ 5 free';
+    background: rgb(255, 60, 0);
+    border: 4px solid black;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 120px;
+    color: rgb(255, 60, 0);
+    font-family: 'Font Awesome\ 5 free';
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Font Awesome\ 5 free';
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Font Awesome\ 5 free';
+    font-weight: bold;
+    color: rgb(0, 255, 234);
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+#question-area h2 {
+    margin-top: 50px;
+    font-family: 'Font Awesome\ 5 free';
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(255, 60, 0);
+    border: 2px solid black;
+    font-family: 'Font Awesome\ 5 free';
+    font-weight: bold;
+}
